@@ -4,7 +4,7 @@ import css2 from "./../../../src/utils/css.js";
 import Screen2 from "./../../../src/components/Screen.jsx";
 import Controls2 from "./../../../src/components/Controls.jsx";
 const sounds = {
-  clap: new Audio("http://bbcsfx.acropolis.org.uk/assets/07070114.wav")
+  clap: new Audio("assets/audio/07070114.wav")
 };
 export default () => {
   const [pause, setPause] = useState(false);

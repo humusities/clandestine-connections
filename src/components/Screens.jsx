@@ -7,7 +7,7 @@ import Screen from "./Screen.jsx";
 import Controls from "./Controls.jsx";
 
 const sounds = {
-  clap: new Audio("http://bbcsfx.acropolis.org.uk/assets/07070114.wav"),
+  clap: new Audio("assets/audio/07070114.wav"),
 };
 
 export default () => {
