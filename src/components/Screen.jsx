@@ -202,7 +202,7 @@ export default ({
         <div className="grid">
           <span>Size</span>
           <span>300 x 65 px</span>
-          <span> </span>
+          <span></span>
           <span>
             Discrete, the application overlay the desktop and show minimal
             information with powerful semantics.
