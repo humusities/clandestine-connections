@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "preact": "./preact/10.4.4/preact.js",
+    "preact/hooks": "./preact/10.4.4/hooks.js",
+    "es-module-shims": "./es-module-shims/0.4.6/es-module-shims.js",
+    "construct-style-sheets-polyfill": "./construct-style-sheets-polyfill/2.3.5/construct-style-sheets-polyfill.js",
+    "aworld": "./aworld/0.1.2/aworld.js"
+  },
+  "scopes": {
+    "./preact/10.4.4/": {
+      "preact": "./preact/10.4.4/preact.js"
+    }
+  }
+}

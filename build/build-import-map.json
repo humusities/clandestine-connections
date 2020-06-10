@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "../src/App.jsx": "../build/src/App.js",
+    "../src/components/Controls.jsx": "../build/src/components/Controls.js",
+    "../src/components/Others.jsx": "../build/src/components/Others.js",
+    "../src/components/Screen.jsx": "../build/src/components/Screen.js",
+    "../src/components/Screens.jsx": "../build/src/components/Screens.js",
+    "../src/components/Sequence.jsx": "../build/src/components/Sequence.js",
+    "../src/components/Tld.jsx": "../build/src/components/Tld.js",
+    "../src/components/World.jsx": "../build/src/components/World.js"
+  }
+}

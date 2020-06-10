@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@eliaspourquoi/heritage": "^0.1.10",
+    "esdev": "^0.1.1",
+    "heritage": "^0.0.0"
+  },
+  "webDependencies": {
+    "preact": "10.4.4",
+    "preact/hooks": "10.4.4",
+    "es-module-shims": "0.4.6",
+    "construct-style-sheets-polyfill": "2.3.5",
+    "aworld": "0.1.2"
+  },
+  "devDependencies": {
+    "aworld": "^0.1.2",
+    "construct-style-sheets-polyfill": "^2.3.5",
+    "preact": "^10.4.4"
+  },
+  "scripts": {
+    "build": "esbuild src/index.js --outdir=dist --jsx-factory=h --jsx-fragment=Fragment --bundle --target=es2015 --minify && cp -R ./assets/ ./dist/assets/ && cp -R ./_redirects ./dist/_redirects"
+  }
+}
