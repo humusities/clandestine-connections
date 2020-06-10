@@ -17,13 +17,13 @@ export default ({pause, page, onChange = () => null, onPages = () => null, scree
   }, h("span", null, "Format"), h("span", null, "4 Screens"), h("span", null, "Note"), h("span", null, "Each screen is used to replicate and enhance the information or serve alternates stories to the viewer."), h("span", null, "Fabrication"), h("span", null, "Modern Web"), h("span", null, "Note"), h("span", null, "The Layout is responsive and adapt itself to the browser, the mobile and big screens, it's final form. The web is used as it is both an edition tool, using CSS, but also an easy way to propagate the project itself while being truthful to its content. Futhermore, all source code is available using a Free-Libre / Open Source Software (FLOSS) License, permitting any kind of modification, share and use.")), h("div", {
     className: "grid"
   }, h("span", null, "Typography"), h("span", null), h("span", null, "Autopia"), h("img", {
-    src: "https://gitlab.com/Luuse/foundry/Autopia/-/raw/master/doc/autopia-1.png"
+    src: "assets/images/autopia-1.png"
   }), h("blockquote", null, "The particularity of this fonts is in the process of developing its shape. The skeleton was generated through Autotrace Program (a program that converts bitmap to vectorgraphics). Calligraphic forms were drawn with Python Fontforge’s code. ", h("br", null), h("br", null), h("small", null, "Antoine Gelgon, Luuse"))), h("div", {
     className: "grid"
   }, h("span", null, "Typography"), h("span", null), h("span", null, "TGL 0-16 and 0-17"), h("img", {
-    src: "http://www.peter-wiegel.de/inhaltgrafik/TGL_0-16.gif"
+    src: "assets/images/TGL_0-16.gif"
   }), h("blockquote", null, "DIN 1451 is a sans-serif typeface that is widely used for traffic, administrative and technical applications. TGL 0-16 and 0-17, the names under which DIN were known in the German Democratic Republic.", h("br", null), h("br", null), h("small", null, "Peter Wiegel")))), h("article", null, h("img", {
-    src: "https://louisedrulhe.fr/internet-atlas/img-web/peuple7.jpg"
+    src: "assets/images/peuple7.jpg"
   }), h("center", null, "Decentralized"), h("center", {
     className: "grid"
   }, h("span", null, "What ?"), h("span", null, "An application to connect communities using a decentralized protocol.")), h("blockquote", null, "The Critical Atlas of Internet Spatial, Analysis as a tool for socio-political purposes, Louise Drulhe")), h("article", null, h("div", {
@@ -93,10 +93,10 @@ export default ({pause, page, onChange = () => null, onPages = () => null, scree
     className: "grid"
   }, h("span", null, "Clandestine"), h("span", null, "Connection")), h("img", {
     style: "background: black",
-    src: "https://www.vgrass.de/wp-content/uploads/2013/02/vlcsnap-2013-02-19-01h37m34s194.png"
+    src: "assets/images/vlcsnap-2013-02-19-01h37m34s194.png"
   }), h("img", {
     style: "background: #ccb394; object-fit: cover; object-position: 0 0;",
-    src: "https://66.media.tumblr.com/57a74ae51638c2ef15c779a53249c459/tumblr_n1cqp0s53y1qbbj19o1_1280.jpg"
+    src: "assets/images/tumblr_n1cqp0s53y1qbbj19o1_1280.jpg"
   }), h("center", {
     className: "grid"
   }, h("span", null, "Resistance"), h("span", null, "in the Digital Age"))), h("article", {
@@ -104,13 +104,13 @@ export default ({pause, page, onChange = () => null, onPages = () => null, scree
   }, h("div", {
     className: "grid"
   }, h("img", {
-    src: "https://louisedrulhe.fr/internet-atlas/img-web/en-gravite4.jpg"
+    src: "assets/images/en-gravite4.jpg"
   }), h("div", null, "opendatacity.de"), h("div", null, "Path taken by information (network packet), depending on the services involved Data recovered on opendatacity.de")), h("div", {
     className: "grid"
   }, h("img", {
-    src: "https://louisedrulhe.fr/internet-atlas/img-web/relief33.svg"
+    src: "assets/images/relief33.svg"
   }), h("div", null, "Topographical map"), h("div", null, "Map of the top websites (and all their derived activities), according to Alexa, Louise Drulhe")), h("img", {
-    src: "https://louisedrulhe.fr/internet-atlas/img-web/gravite1.jpg"
+    src: "assets/images/gravite1.jpg"
   }), h("div", {
     className: "grid"
   }, h(TLD, null), h("div", null, "Domain Name Authorities"), h("div", null, "Map of the Domain Name managers (.com, .nl, ...) according US located IANA who coordinates the sanity of the Internet."))), h("article", null, h("center", null, "The following video will show ", h("br", null), h("b", null, "Peter Sunde Kolmisoppi"), ", born 13 September 1978, alias", h("i", null, " brokep"), ".", h("br", null), "The Pirate Bay, co-founder of the world’s largest peer-to-peer file-sharing site."), h("div", null, h("blockquote", null, "In December, Gottfrid (i.e. one of the co-founder) was arrested in his home in Cambodia, extradited to Sweden and started to serve his prison sentence.", h("br", null), h("br", null), h("small", null, "TorrentFreak, February 2, 2013"))), h("div", {

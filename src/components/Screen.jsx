@@ -60,7 +60,7 @@ export default ({
           <span>Typography</span>
           <span></span>
           <span>Autopia</span>
-          <img src="https://gitlab.com/Luuse/foundry/Autopia/-/raw/master/doc/autopia-1.png" />
+          <img src="assets/images/autopia-1.png" />
           <blockquote>
             The particularity of this fonts is in the process of developing its
             shape. The skeleton was generated through Autotrace Program (a
@@ -74,7 +74,7 @@ export default ({
           <span>Typography</span>
           <span></span>
           <span>TGL 0-16 and 0-17</span>
-          <img src="http://www.peter-wiegel.de/inhaltgrafik/TGL_0-16.gif" />
+          <img src="assets/images/TGL_0-16.gif" />
           <blockquote>
             DIN 1451 is a sans-serif typeface that is widely used for traffic,
             administrative and technical applications. TGL 0-16 and 0-17, the
@@ -86,7 +86,7 @@ export default ({
         </div>
       </article>
       <article>
-        <img src="https://louisedrulhe.fr/internet-atlas/img-web/peuple7.jpg" />
+        <img src="assets/images/peuple7.jpg" />
         <center>Decentralized</center>
         <center className="grid">
           <span>What ?</span>
@@ -252,11 +252,11 @@ export default ({
         </center>
         <img
           style="background: black"
-          src="https://www.vgrass.de/wp-content/uploads/2013/02/vlcsnap-2013-02-19-01h37m34s194.png"
+          src="assets/images/vlcsnap-2013-02-19-01h37m34s194.png"
         />
         <img
           style="background: #ccb394; object-fit: cover; object-position: 0 0;"
-          src="https://66.media.tumblr.com/57a74ae51638c2ef15c779a53249c459/tumblr_n1cqp0s53y1qbbj19o1_1280.jpg"
+          src="assets/images/tumblr_n1cqp0s53y1qbbj19o1_1280.jpg"
         />
         <center className="grid">
           <span>Resistance</span>
@@ -265,7 +265,7 @@ export default ({
       </article>
       <article className="cover">
         <div className="grid">
-          <img src="https://louisedrulhe.fr/internet-atlas/img-web/en-gravite4.jpg" />
+          <img src="assets/images/en-gravite4.jpg" />
           <div>opendatacity.de</div>
           <div>
             Path taken by information (network packet), depending on the
@@ -273,14 +273,14 @@ export default ({
           </div>
         </div>
         <div className="grid">
-          <img src="https://louisedrulhe.fr/internet-atlas/img-web/relief33.svg" />
+          <img src="assets/images/relief33.svg" />
           <div>Topographical map</div>
           <div>
             Map of the top websites (and all their derived activities),
             according to Alexa, Louise Drulhe
           </div>
         </div>
-        <img src="https://louisedrulhe.fr/internet-atlas/img-web/gravite1.jpg" />
+        <img src="assets/images/gravite1.jpg" />
         <div className="grid">
           <TLD />
           <div>Domain Name Authorities</div>
