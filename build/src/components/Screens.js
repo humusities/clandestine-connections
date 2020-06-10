@@ -7,7 +7,7 @@ const sounds = {
   clap: new Audio("http://bbcsfx.acropolis.org.uk/assets/07070114.wav")
 };
 export default () => {
-  const [pause, setPause] = useState(true);
+  const [pause, setPause] = useState(false);
   const pages = [useState(0), useState(0), useState(0), useState(0)];
   const setPages = (i) => (n) => pages[i][1](n);
   const max = pages.reduce((r, [i]) => Math.max(r, i), 0);

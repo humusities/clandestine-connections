@@ -139,7 +139,7 @@
     margin: 1rem;
     cursor: pointer;
   }
-`;const pa={clap:new Audio("http://bbcsfx.acropolis.org.uk/assets/07070114.wav")};const gb=()=>{const[b,c]=H(!0),d=[H(0),H(0),H(0),H(0)],e=i=>k=>d[i][1](k),h=d.reduce((i,[k])=>Math.max(i,k),0),[g,m]=H(0),p=()=>{pa.clap.pause(),pa.clap.currentTime=0,pa.clap.play()};return a(L,null,a("main",null,a(ba,{screen:0,onChange:p,onPages:e(0),pause:b,page:g}),a(ba,{screen:1,onPages:e(1),pause:b,page:g}),a(ba,{screen:2,onPages:e(2),pause:b,page:g}),a(ba,{screen:3,onPages:e(3),pause:b,page:g})),a(ib,{max:h,pause:b,setPage:m,setPause:c}))};V`
+`;const pa={clap:new Audio("http://bbcsfx.acropolis.org.uk/assets/07070114.wav")};const gb=()=>{const[b,c]=H(!1),d=[H(0),H(0),H(0),H(0)],e=i=>k=>d[i][1](k),h=d.reduce((i,[k])=>Math.max(i,k),0),[g,m]=H(0),p=()=>{pa.clap.pause(),pa.clap.currentTime=0,pa.clap.play()};return a(L,null,a("main",null,a(ba,{screen:0,onChange:p,onPages:e(0),pause:b,page:g}),a(ba,{screen:1,onPages:e(1),pause:b,page:g}),a(ba,{screen:2,onPages:e(2),pause:b,page:g}),a(ba,{screen:3,onPages:e(3),pause:b,page:g})),a(ib,{max:h,pause:b,setPage:m,setPause:c}))};V`
   main {
     height: 100vh;
     max-width: 100vw;
