@@ -5,8 +5,11 @@ import {useState} from "preact/hooks";
 export default () => {
   const [ready, setReady] = useState(false);
   return !ready ? h("div", {
-    onClick: () => setReady(true)
-  }, "Play") : h(Screens2, null);
+    onClick: () => setReady(true),
+    className: "grid"
+  }, h("span", {
+    style: "grid-column: span 2;"
+  }, "Click to start"), h("small", null, "Note: Controls over the website behaviour are available when you hover your cursor at the center of the screen.")) : h(Screens2, null);
 };
 css2`
   @import "assets/fonts/autopia/autopia-stylesheet.css";
@@ -39,10 +42,10 @@ css2`
   }
 
   #app > div {
-    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     height: 100%;
+    font-size: 3rem;
   }
 `;

@@ -157,7 +157,7 @@
   main > * {
     overflow: hidden;
   }
-`;const hb=()=>{const[b,c]=H(!1);return b?a(gb,null):a("div",{onClick:()=>c(!0)},"Play")};V`
+`;const hb=()=>{const[b,c]=H(!1);return b?a(gb,null):a("div",{onClick:()=>c(!0),className:"grid"},a("span",{style:"grid-column: span 2;"},"Click to start"),a("small",null,"Note: Controls over the website behaviour are available when you hover your cursor at the center of the screen."))};V`
   @import "assets/fonts/autopia/autopia-stylesheet.css";
   @import "assets/fonts/tgl/tgl.css";
 
@@ -188,10 +188,10 @@
   }
 
   #app > div {
-    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     height: 100%;
+    font-size: 3rem;
   }
 `;ja(a(hb),document.body.insertBefore(Object.assign(document.createElement("div"),{id:"app"}),document.body.firstChild))}};return k$(9)})();

@@ -7,7 +7,17 @@ import { useState } from "preact/hooks";
 
 export default () => {
   const [ready, setReady] = useState(false);
-  return !ready ? <div onClick={() => setReady(true)}>Play</div> : <Screens />;
+  return !ready ? (
+    <div onClick={() => setReady(true)} className="grid">
+      <span style="grid-column: span 2;">Click to start</span>
+      <small>
+        Note: Controls over the website behaviour are available when you hover
+        your cursor at the center of the screen.
+      </small>
+    </div>
+  ) : (
+    <Screens />
+  );
 };
 css`
   @import "assets/fonts/autopia/autopia-stylesheet.css";
@@ -40,10 +50,10 @@ css`
   }
 
   #app > div {
-    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     height: 100%;
+    font-size: 3rem;
   }
 `;
